@@ -88,7 +88,8 @@
 				5A3FE9171DA8F6CE00425178 /* LuhnTests.swift */,
 				5A3FE9191DA8F6CE00425178 /* Info.plist */,
 			);
-			path = LuhnTests;
+			name = LuhnTests;
+			path = Tests/luhnTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -379,7 +380,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = LuhnTests/Info.plist;
+				INFOPLIST_FILE = Tests/luhnTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.serluca.LuhnTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -391,7 +392,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = LuhnTests/Info.plist;
+				INFOPLIST_FILE = Tests/luhnTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.serluca.LuhnTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
